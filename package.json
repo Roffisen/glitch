@@ -1,0 +1,39 @@
+{
+  "name": "botkit-starter-web",
+  "version": "0.0.1",
+  "description": "A starter kit for building a custom bot for your website with Botkit Studio",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "botkit": "^0.6.12",
+    "botkit-storage-mongo": "^1.0.7",
+    "botkit-studio-metrics": "0.0.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "mongoose": "^5.0.12",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "thtps://github.com/howdyai/botkit-starter-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/howdyai/botkit-starter-web/issues"
+  },
+  "homepage": "https://github.com/howdyai/botkit-starter-web",
+  "keywords": [
+    "bots",
+    "chatbots",
+    "web chat"
+  ],
+  "author": "ben@howdy.ai",
+  "license": "ISC"
+}
